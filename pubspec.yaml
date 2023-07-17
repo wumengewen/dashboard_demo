@@ -1,0 +1,30 @@
+name: dashboard_demo
+description: A new Flutter project.
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=2.19.6 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  get:
+  styled_widget:
+  cupertino_icons:
+  eva_icons_flutter:
+  percent_indicator:
+  timeago:
+  dotted_border:
+  multi_split_view:
+  sidebarx:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
